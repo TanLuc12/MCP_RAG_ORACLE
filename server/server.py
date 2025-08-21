@@ -12,7 +12,7 @@ ORACLE_PORT = os.getenv("ORACLE_PORT")
 ORACLE_SERVICE = os.getenv("ORACLE_SERVICE")
 ORACLE_USERNAME = os.getenv("ORACLE_USERNAME")
 ORACLE_PASSWORD = os.getenv("ORACLE_PASSWORD")
-api_key = os.getenv("OPEN_API_KEY")
+api_key = os.getenv("OPENAI_API_KEY")
 # print(ORACLE_HOST)
 dsn = f"{ORACLE_HOST}:{ORACLE_PORT}/{ORACLE_SERVICE}"
 
